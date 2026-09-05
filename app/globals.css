@@ -1454,3 +1454,10 @@ a { color: inherit; }
   .reveal-ready [data-reveal] { opacity: 1; transform: none; filter: none; }
   .flowers-ready [data-flower-grow] { opacity: 1; clip-path: none; transition: none; }
 }
+@media (max-width: 720px) {
+  .flowers-ready .gallery-section__garden img[data-flower-grow] {
+    clip-path: none !important;
+    -webkit-clip-path: none !important;
+    transition: opacity .8s var(--grow-delay, 0ms) ease !important;
+  }
+}
