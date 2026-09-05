@@ -423,7 +423,7 @@ export default function Home() {
           <img className="gallery-section__illustration" src={`${ASSET}illustration.webp`} alt="Minh họa cô dâu chú rể cùng những chú mèo" loading="lazy" data-reveal />
           <div className="gallery-section__garden" aria-hidden="true">
             {GALLERY_FLOWERS.map(([flower, left, width, bottom], index) => (
-              <img key={`${flower}-${index}`} src={`${ASSET}floral-${flower}.webp`} alt="" loading="lazy" data-flower-grow="up" style={{ left: `${left}%`, width: `${width}%`, bottom: `${bottom}%`, animationDelay: `${index * -.65}s`, '--grow-delay': `${(index % 5) * 65}ms` } as CSSProperties} />
+              <img key={`${flower}-${index}`} src={`${ASSET}floral-${flower}.webp`} alt="" loading="eager" decoding="async" data-flower-grow="up" style={{ left: `${left}%`, width: `${width}%`, bottom: `${bottom}%`, animationDelay: `${index * -.65}s`, '--grow-delay': `${(index % 5) * 65}ms` } as CSSProperties} />
             ))}
           </div>
           </div>
