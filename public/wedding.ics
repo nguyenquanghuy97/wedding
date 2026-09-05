@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Quang Huy & Hanh Thao//Wedding Invitation//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260920-wedding-quang-huy-hanh-thao
+DTSTAMP:20260903T060000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260920T110000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260920T140000
+SUMMARY:Tiệc cưới Quang Huy & Hạnh Thảo
+DESCRIPTION:Trân trọng mời bạn đến chung vui cùng Quang Huy và Hạnh Thảo.
+LOCATION:Metropole Wedding & Convention Center\, 261 Lý Chính Thắng\, Nhiêu Lộc\, TP. Hồ Chí Minh
+END:VEVENT
+END:VCALENDAR
