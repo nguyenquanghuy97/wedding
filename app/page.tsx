@@ -452,7 +452,7 @@ export default function Home() {
           <CalendarDays aria-hidden="true" />
           <span>Thêm lịch</span>
         </a>
-        <a href="tel:0399294113">
+        <a href="tel:0377174710">
           <Phone aria-hidden="true" />
           <span>Liên hệ</span>
         </a>
